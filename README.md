@@ -1,7 +1,14 @@
-# Node.js Hello World
+# Node.js Product Service using express
 
-This sample demonstrates a tiny Hello World node.js app for [App Service Web App](https://docs.microsoft.com/azure/app-service-web).
+This is the companion product service for  andrewc2020/angular-getting-started which supplies the product list.
 
-# Contributing
+It can be run in a docker container alongside the web application using the docker-compose.yml script supplied in the web app repository.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+The image can be built first, using the command 
+
+docker image build -t <tag>/productservice .
+
+The web app will listen for the service on port 4000.
+
+Change the tag name for the image in the docker-compose.yml and then run docker-compose up to run both the web application and the supporting product service. 
+
