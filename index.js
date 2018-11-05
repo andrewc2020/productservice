@@ -14,7 +14,7 @@ app.get('/', (req, res) => res.json(
     getConfig('products.json')
 ));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Product service listening on port ${port}!`))
 
 function readJsonFileSync(filepath, encoding){
 
