@@ -11,7 +11,7 @@ var fs = require("fs"),
 });
 
 app.get('/', (req, res) => res.json(
-    getConfig('products.json')
+    getConfig('data/products.json')
 ));
 
 app.listen(port, () => console.log(`Product service listening on port ${port}!`))
