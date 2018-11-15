@@ -10,5 +10,5 @@ docker image build -t <tag>/productservice .
 
 The web app will listen for the service on port 4000.
 
-Change the tag name for the image in the docker-compose.yml and then run docker-compose up to run both the web application and the supporting product service. 
+Change the tag name for the image in the docker-compose.yml in the companion angular-getting-started project and then run docker-compose up to run both the web application and the supporting product service. 
 
