@@ -54,4 +54,16 @@
         "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png",
         "upc" : 38540825
     }
+    ,
+    {
+        "productId": 11,
+        "productName": "Garden Hose",
+        "productCode": "GMG-0043",
+        "releaseDate": "October 15, 2017",
+        "description": "Garden hose with reel",
+        "price": 35.95,
+        "starRating": 4.6,
+        "imageUrl": "https://openclipart.org/image/400px/svg_to_png/262375/1474601776.png",
+        "upc" : 38540872
+    }
 ]
